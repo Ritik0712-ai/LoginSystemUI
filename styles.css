@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7fc;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #283593;
+    color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav .logo {
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff9800;
+}
+
+.hero {
+    height: 100vh;
+    background: linear-gradient(135deg, #283593, #6f57a1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.hero h1 {
+    font-size: 3.5em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.3em;
+    margin-bottom: 30px;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.cta-btn {
+    background-color: #ff9800;
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #e68900;
+}
+
+.cta-btn.secondary {
+    background-color: #556cd6;
+}
+
+.cta-btn.secondary:hover {
+    background-color: #4355b1;
+}
+
+.form-container {
+    max-width: 450px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1.1em;
+    transition: border 0.3s;
+}
+
+form input:focus {
+    border: 2px solid #283593;
+}
+
+form button {
+    padding: 12px;
+    background-color: #283593;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #1e2a8a;
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+    margin-top: 15px;
+}
+
+footer {
+    background-color: #283593;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 1em;
+}
